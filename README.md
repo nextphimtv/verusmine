@@ -1,6 +1,6 @@
 Installation instructions for linux, for Windows go straight to the asset files at the bottom:
-
-sudo apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
+<pre><code>
+sudo apt-get install git libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
 
 wget http://developer.download.nvidia.com/compute/cuda/10.2/Prod/local_installers/cuda_10.2.89_440.33.01_linux.run
 
@@ -17,7 +17,7 @@ chmod +x configure.sh
 chmod +x autogen.sh
 
 ./build.sh
-
+</code></pre>
 Then To Run the miner do the following
 
 Assets Below
